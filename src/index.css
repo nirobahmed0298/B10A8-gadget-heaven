@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: "Sora", serif;
+}
+#sidebar a.active {
+    color: #9538E2;
+    background:white;
+  }
+#navlink a.active {
+    background-color: #9538E2;
+    color:white;
+  }
